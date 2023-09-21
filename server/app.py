@@ -19,6 +19,8 @@ def home():
 
 @app.route('/animal/<int:id>')
 def animal_by_id(id):
+    # Your code to handle the route goes here
+
     return ''
 
 @app.route('/zookeeper/<int:id>')
